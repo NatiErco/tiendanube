@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo-container{
+  display:flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000;
+  
+}
+
+.gif-logo {
+  width: 40px; 
+  height: auto;
+  top: 2px;
+  position: relative;
+}
+
+
+/* NavLinks */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks a {
+  color: #716c6c;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.navLinks a:hover {
+  background-color: #f3f4f6; /* Gris claro similar a Tailwind */
+  border-radius: 20px;
+}
+
+/* Botones */
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.login-button,
+.register-button {
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Botón de inicio de sesión */
+.login-button {
+  background-color: #536DFE;
+  color: #ffffff;
+}
+
+
+.login-button:hover {
+  background-color: #4338ca;;
+
+}
+
+/* Botón de registro */
+.register-button {
+  background-color: #536DFE;
+  color: #ffffff;
+}
+
+.register-button:hover {
+  background-color: #4338ca;;
+}
+

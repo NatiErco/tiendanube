@@ -1,0 +1,101 @@
+/* Estilos generales */
+.contenedor {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Logo y título */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a202c;
+    margin-top: 1rem;
+  }
+  
+  /* Contenedor del formulario */
+  .formulario-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Campos del formulario */
+  .campo {
+    margin-bottom: 1.5rem;
+  }
+  
+  .campo label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a202c;
+    margin-bottom: 5px;
+  }
+  
+  .campo input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Contraseña y enlace de "¿Olvidaste tu contraseña?" */
+  .password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .enlace {
+    font-size: 14px;
+    color: #4f46e5;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .enlace:hover {
+    color: #3023c8;
+  }
+  
+  /* Botón de inicio de sesión */
+  .boton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Texto de registro */
+  .texto-registro {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+  }
+  

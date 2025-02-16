@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #536DFE;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Empuja el footer hacia la parte inferior */
+
+  }
+  
+  .footer p {
+    margin: 0.5rem 0;
+  }
+  
+  .footerLinks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .footerLinks a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footerLinks a:hover {
+    text-decoration: underline;
+  }
+  
